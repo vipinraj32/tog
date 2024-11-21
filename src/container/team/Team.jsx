@@ -46,7 +46,7 @@
 
                 </div>
                 <div className="contentBx">
-                  <h3>Arun Pratap Singh <br /><span>Co-founder</span></h3>
+                  <h3>Arun Pratap Singh chandel<br /><span>Co-founder</span></h3>
                 </div>
               </div>
               <ul className='sci p-1'>
