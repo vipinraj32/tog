@@ -93,7 +93,7 @@
 
                 </div>
                 <div className="contentBx">
-                  <h3>Sameer Mishra<br /><span>Comminuty manger</span></h3>
+                  <h3>Sameer Mishra<br /><span>community manager</span></h3>
                 </div>
               </div>
               <ul className='sci p-1'>
