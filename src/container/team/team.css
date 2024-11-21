@@ -1,0 +1,143 @@
+.team_our{
+    text-align: center;
+
+}
+
+.team_our h1{
+    font-family: var(--gradient-text);
+    font-size: 35px;
+    font-weight: 500;
+    color: #fff;
+    letter-spacing: -o.4em;
+    margin-top: 0   ;
+    
+}
+
+.team_our p{
+    font-family: var(--font-family);
+    font-size: 20px;
+    font-weight: 300;
+    color: var(--color-text);
+   
+}
+
+.team{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+ 
+}
+
+section{
+  position: relative;
+}
+
+.team_container{
+  position: relative;
+  z-index: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  
+}
+
+
+.team_container .card .content .imgBx{
+  position: relative;
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  overflow: hidden;
+  border: 10px solid rgba(0, 0,0,0.25);
+}
+
+.team_container .card{
+  position:relative;
+  width: 320px;
+  height: 400px;
+  /* background: rgba(255, 255,255,0.06); */
+   background: rgba(255, 255, 255, 0.053); 
+  box-shadow: 0 15px 35px rgba(0, 0,0,0.5);
+  margin: 20px;
+  border-radius: 12px;
+  border: 1px solid rgba(255,255,255,0.1);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  backdrop-filter: blur(10px) saturate(180%);
+
+}
+
+.team_container .card .content{
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  opacity: 0.7;
+  transition: .5s;
+}
+.team_container .card .sci{
+  position: absolute;
+  bottom: 40px;
+  display: flex;
+  text-align: center;
+}
+.team_container .card .sci li{
+  list-style: none;
+  margin: 4px 8px;
+  transform: translateY(40px);
+  opacity: 0;
+  transition:.5s ;
+  transition-delay: calc(0.1s*var(--i));
+ 
+
+}
+.team_container .card:hover .sci li{
+  transform: translateY(0px);
+  opacity: 1;
+
+
+}
+
+.team_container .card .sci li a{
+  color: #fff;
+  font-size: 24px;
+
+
+}
+.team_container .card:hover .content{
+  opacity: 1;
+
+}
+
+.team_container .card .content .contentBx h3{
+  color: #fff;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  font-weight: 500;
+  font-size: 18px;
+  text-align: center;
+  margin: 20px 0px 18px;
+  line-height: 1.1em
+  
+}
+
+.team_container .card .content .contentBx h3 span{
+  font-size: 12px;
+  font-weight:300 ;
+  text-decoration: initial;
+}
+
+
+.team_container .card .content .imgBx img{
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+  

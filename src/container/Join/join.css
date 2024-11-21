@@ -1,0 +1,103 @@
+.join{
+    padding: 3rem;
+    display: flex;
+    flex-direction: column;
+
+    /* ff 3.6+ */
+    background: -moz-radial-gradient(circle at 50% 100%, rgba(0, 40, 83, 1) 0%, rgba(4, 12, 24, 1) 100%);
+
+    /* safari 5.1+,chrome 10+ */
+    background: -webkit-radial-gradient(circle at 50% 100%, rgba(0, 40, 83, 1) 0%, rgba(4, 12, 24, 1) 100%);
+
+    /* opera 11.10+ */
+    background: -o-radial-gradient(circle at 50% 100%, rgba(0, 40, 83, 1) 0%, rgba(4, 12, 24, 1) 100%);
+
+    /* ie 10+ */
+    background: -ms-radial-gradient(circle at 50% 100%, rgba(0, 40, 83, 1) 0%, rgba(4, 12, 24, 1) 100%);
+
+    /* global 92%+ browsers support */
+    background: radial-gradient(circle at 50% 100%, rgba(0, 40, 83, 1) 0%, rgba(4, 12, 24, 1) 100%);
+    }
+  
+
+
+
+
+.join_first1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: 500;
+    padding-top: 3rem;
+    color:var(--gradient-text);
+    font-size: 21px;
+}
+
+.join h1{
+    color: #ffffffe3;
+ 
+    letter-spacing: 1px;
+    font-weight: 500;
+    font-size: 38px;
+    text-align: center;
+    line-height: 1.1em
+
+}
+
+.join-p p{
+    font-family: var(--font-family);
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 32px;
+    color: var(--color-text); 
+    text-align: center  ; 
+     justify-content: center;
+     padding-top: 1rem;
+    
+     padding-left: 8rem;
+     padding-right: 8rem;
+}
+
+.join button{
+    padding: 0.5rem 1rem;
+    color: #fff;
+    width: 9%;
+    background: #4b21ff;
+    font-family: var(--font-family);
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 25px;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    border-radius: 25px; 
+    
+}
+.join button:hover{
+        box-shadow:  0 0 5px rgba(15, 90, 188, 0.74),0 0 25px royalblue;
+    
+}
+
+
+@media screen and (max-width: 550px) {
+    .join_first1{
+        padding-top: 2rem;
+        font-size: 19px;
+    }
+
+    .join h1{
+        font-size: 26px;
+    }
+    .join-p p{
+        font-size: 13x;
+        padding-left: 1rem;
+        padding-right:1rem;
+    }
+    .join button{
+        font-size: 14px;
+        width: 38%
+    }
+
+
+    
+}
