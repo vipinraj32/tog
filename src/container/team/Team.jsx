@@ -118,7 +118,7 @@
 
                 </div>
                 <div className="contentBx">
-                  <h3>Aditya Raj<br /><span>Graphics designer</span></h3>
+                  <h3>Aditya Raj<br /><span>Content Head</span></h3>
                 </div>
               </div>
               <ul className='sci p-1'>
