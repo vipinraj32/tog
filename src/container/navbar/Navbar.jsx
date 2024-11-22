@@ -22,7 +22,7 @@ const Navbar = () => {
         </h1>
       </div>
       <div div className='npl_navbar-links_container '>
-       <p><a href="#home">About TOG</a></p>
+       <p><a href="#home" active>About TOG</a></p>
        <p><a href="#">TOG Chapters</a></p>
        <p><a href="https://medium.com/@theoriginguild">Resource</a></p>
       
@@ -42,7 +42,7 @@ const Navbar = () => {
           toggleMenu && (
             <div className="npl_navbar-menu_container scale-up-center ">
               <div className="npl_navbar-menu_container-links">
-              <p><a href="#home">About TOG</a></p>
+              <p><a href="#home" className='active'>About TOG</a></p>
               <p><a href="#">TOG Chapters</a></p>
               <p><a href="https://medium.com/@theoriginguild">Resource</a></p>
                 </div>
