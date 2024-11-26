@@ -8,8 +8,10 @@ import  ethereum from '../../assets/ethreum.png'
 import devcon from '../../assets/devcon.png'
 import biconomy from '../../assets/biconomy.png'
 import TestimonialSlider from './TestimonialSlider.jsx'
+import VideoPlayer from './PastEvent.jsx'
 const Support = () => {
   return (
+    <>
     <div>
     <div className='section__margin support'> 
         
@@ -46,8 +48,10 @@ const Support = () => {
     <h1 className='support_h1'>Upcoming Event 2024</h1>
     <p className='upcoming'>UpComing....</p>
     </div>
-   
    </div>
+   <VideoPlayer/>
+   </>
+   
   )
 }
 

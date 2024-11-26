@@ -11,6 +11,7 @@ import Team from './container/team/Team';
 import Join from './container/Join/Join';
 import Footer from './container/footer/Footer';
 
+
 // import Team from './container/team/Team';
   ;
 
@@ -34,7 +35,6 @@ function App() {
              <Header data-aos="fade-up"/>
       </div>
        <Support/>
-     
        <Achievment/>
        <Team/>
        <Join/>
