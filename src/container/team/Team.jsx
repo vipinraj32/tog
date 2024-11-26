@@ -74,12 +74,12 @@
               </div>
               <ul className='sci p-1'>
                 <li style={{'--i':1}}>
-                  <a href=""><FontAwesomeIcon icon={faTwitter} /></a>
+                  <a href="https://x.com/Shailjasoni188?t=tiihQVFmZhxFAkO3THRFzA&s=08"><FontAwesomeIcon icon={faTwitter} /></a>
                 </li><li style={{'--i':2}}>
-                  <a href=""><FontAwesomeIcon icon={faLinkedinIn} /></a>
+                  <a href="http://www.linkedin.com/in/shailja-soni-055b37273"><FontAwesomeIcon icon={faLinkedinIn} /></a>
                 </li>
                 <li style={{'--i':3}}>
-                  <a href=""><FontAwesomeIcon icon={faTelegramPlane} /></a>
+                  <a href="https://t.me/Shailjasoni"><FontAwesomeIcon icon={faTelegramPlane} /></a>
                 </li>
 
               </ul>
@@ -98,12 +98,12 @@
               </div>
               <ul className='sci p-1'>
                 <li style={{'--i':1}}>
-                  <a href=""><FontAwesomeIcon icon={faTwitter} /></a>
+                  <a href="https://x.com/Saurabhsrv1?t=hmM8aOcWblyMvZoxVJ1JoQ&s=08"><FontAwesomeIcon icon={faTwitter} /></a>
                 </li><li style={{'--i':2}}>
                   <a href="https://www.linkedin.com/in/saurabhkushwaha438/"><FontAwesomeIcon icon={faLinkedinIn} /></a>
                 </li>
                 <li style={{'--i':3}}>
-                  <a href=""><FontAwesomeIcon icon={faTelegramPlane} /></a>
+                  <a href="https://t.me/dupido"><FontAwesomeIcon icon={faTelegramPlane} /></a>
                 </li>
 
               </ul>

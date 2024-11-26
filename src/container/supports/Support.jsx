@@ -7,6 +7,7 @@ import devfolio from '../../assets/devfolio.png'
 import  ethereum from '../../assets/ethreum.png'
 import devcon from '../../assets/devcon.png'
 import biconomy from '../../assets/biconomy.png'
+import TestimonialSlider from './TestimonialSlider.jsx'
 const Support = () => {
   return (
     <div>
@@ -37,9 +38,10 @@ const Support = () => {
         <div className=" container">        
             <img src={biconomy} alt=""/>
         </div>
-
-       
     </div>
+   
+   <TestimonialSlider/>
+
     <div className='section__margin'>
     <h1 className='support_h1'>Upcoming Event 2024</h1>
     <p className='upcoming'>UpComing....</p>
