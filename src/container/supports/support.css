@@ -105,4 +105,48 @@
       justify-content: center;  /* Centers the content horizontally */
     }
   }
+  .scroll_p {
+    background:-moz-radial-gradient(circle at 30% -100%, #042c54 25%, rgba(4, 44, 84, 1) 85%, rgba(27, 120, 222, 1) 100%);
+
+    /* safari 5.1+,chrome 10+ */
+    background:-webkit-radial-gradient(circle at 30% -100%, #042c54 25%, rgba(4, 44, 84, 1) 85%, rgba(27, 120, 222, 1) 100%);
+ 
+    /* opera 11.10+ */
+    background:-o-radial-gradient(circle at 30% -100%, #042c54 25%, rgba(4, 44, 84, 1) 85%, rgba(27, 120, 222, 1) 100%);
+ 
+    /* ie 10+ */
+    background:-ms-radial-gradient(circle at 30% -100%, #042c54 25%, rgba(4, 44, 84, 1) 85%, rgba(27, 120, 222, 1) 100%);
+ 
+    /* global 92%+ browsers support */
+    background:radial-gradient(circle at 30% -100%, #042c54 25%, rgba(4, 44, 84, 1) 85%, rgba(27, 120, 222, 1) 100%);
+ 
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+    height: 400px;
+    width: 100%;
+    white-space: nowrap;
+    overflow-x: hidden;
+    overflow-y: hidden;
+    display: flex;
+    align-items: center;
   
+  }
+  
+  .container_p {
+    display: flex;
+    animation-name: anime;
+    animation-duration:5s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+    margin-left: 40px;
+  }
+  
+  .container_p img {
+    height: 350px;
+    width: 400px;
+    object-fit: cover;
+    object-position: center;
+  }
+  .scroll_p .container_p {
+    animation: anime 20s linear infinite;
+    margin-left: 120px;
+  }
