@@ -51,12 +51,12 @@
               </div>
               <ul className='sci p-1'>
                 <li style={{'--i':1}}>
-                  <a href="https://x.com/sameermishra__"><FontAwesomeIcon icon={faTwitter} /></a>
+                  <a href="https://x.com/Arun_edition?t=EPAAV6BjmWmY99eSlYHW2Q&s=09"><FontAwesomeIcon icon={faTwitter} /></a>
                 </li><li style={{'--i':2}}>
-                  <a href="https://www.linkedin.com/in/sameer-mishra-967412239?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"><FontAwesomeIcon icon={faLinkedinIn} /></a>
+                  <a href="https://www.linkedin.com/in/arun-pratap-singh-chandel-7aa101259?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"><FontAwesomeIcon icon={faLinkedinIn} /></a>
                 </li>
                 <li style={{'--i':3}}>
-                  <a href="https://t.me/sameer_mishra612"><FontAwesomeIcon icon={faTelegramPlane} /></a>
+                  <a href="https://t.me/editonox"><FontAwesomeIcon icon={faTelegramPlane} /></a>
                 </li>
 
               </ul>
@@ -74,12 +74,12 @@
               </div>
               <ul className='sci p-1'>
                 <li style={{'--i':1}}>
-                  <a href="https://x.com/Shailjasoni188?t=tiihQVFmZhxFAkO3THRFzA&s=08"><FontAwesomeIcon icon={faTwitter} /></a>
+                  <a href="https://x.com/0xVipin"><FontAwesomeIcon icon={faTwitter} /></a>
                 </li><li style={{'--i':2}}>
-                  <a href="http://www.linkedin.com/in/shailja-soni-055b37273"><FontAwesomeIcon icon={faLinkedinIn} /></a>
+                  <a href="https://www.linkedin.com/in/vipin-rajpoot-2b019b261/"><FontAwesomeIcon icon={faLinkedinIn} /></a>
                 </li>
                 <li style={{'--i':3}}>
-                  <a href="https://t.me/Shailjasoni"><FontAwesomeIcon icon={faTelegramPlane} /></a>
+                  <a href="https://t.me/VipinSingh2005"><FontAwesomeIcon icon={faTelegramPlane} /></a>
                 </li>
 
               </ul>
@@ -98,12 +98,12 @@
               </div>
               <ul className='sci p-1'>
                 <li style={{'--i':1}}>
-                  <a href="https://x.com/Saurabhsrv1?t=hmM8aOcWblyMvZoxVJ1JoQ&s=08"><FontAwesomeIcon icon={faTwitter} /></a>
+                  <a href="https://x.com/sameermishra__"><FontAwesomeIcon icon={faTwitter} /></a>
                 </li><li style={{'--i':2}}>
-                  <a href="https://www.linkedin.com/in/saurabhkushwaha438/"><FontAwesomeIcon icon={faLinkedinIn} /></a>
+                  <a href="https://www.linkedin.com/in/sameer-mishra-967412239?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"><FontAwesomeIcon icon={faLinkedinIn} /></a>
                 </li>
                 <li style={{'--i':3}}>
-                  <a href="https://t.me/dupido"><FontAwesomeIcon icon={faTelegramPlane} /></a>
+                  <a href="https://t.me/sameer_mishra612"><FontAwesomeIcon icon={faTelegramPlane} /></a>
                 </li>
 
               </ul>

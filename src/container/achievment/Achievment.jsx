@@ -2,7 +2,7 @@ import React from 'react'
 import './achievment.css'
 const Achievment = () => {
   return (
-    <div>
+    <div className='mt-4'>
     <div className='achievment'>
       <p >Achievements</p>
       <h1 className='gradient__text'>A Journey Through Our Events and Workshops</h1>
