@@ -5,8 +5,8 @@
   import Aditya from '../../assets/aditya.jpg'
   import aniket from '../../assets/aniket.png'
   import sameer from '../../assets/sameer.jpg'
-  import saurabh from '../../assets/saurabh.jpg'
-  import shailja from '../../assets/shailja.jpg'
+  import Arun from '../../assets/Arun.jpg'
+  import vipin from '../../assets/vipin.png'
   const Team = () => {
     return (
       <div className='section__margin'>
@@ -42,11 +42,11 @@
             <div className="card">
               <div className="content">
                 <div className="imgBx">
-                  <img src={sameer} alt="" />
+                  <img src={Arun} alt="" />
 
                 </div>
                 <div className="contentBx">
-                  <h3>Sameer Mishra<br /><span>Co-founder</span></h3>
+                  <h3>Arun Pratap Singh<br /><span>Co-founder</span></h3>
                 </div>
               </div>
               <ul className='sci p-1'>
@@ -65,11 +65,11 @@
             <div className="card">
               <div className="content">
                 <div className="imgBx">
-                  <img src={shailja} alt="" />
+                  <img src={vipin} alt="" />
 
                 </div>
                 <div className="contentBx">
-                  <h3>Shailja Soni <br /><span>Full Stack developer</span></h3>
+                  <h3>Vipin Singh <br /><span>Full Stack developer</span></h3>
                 </div>
               </div>
               <ul className='sci p-1'>
@@ -89,11 +89,11 @@
             <div className="card">
               <div className="content">
                 <div className="imgBx">
-                  <img src={saurabh} alt="" />
+                  <img src={sameer} alt="" />
 
                 </div>
                 <div className="contentBx">
-                  <h3>Saurabh Kushwaha<br /><span>community manager</span></h3>
+                  <h3>Sameer Mishra<br /><span>community manager</span></h3>
                 </div>
               </div>
               <ul className='sci p-1'>

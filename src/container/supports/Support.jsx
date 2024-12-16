@@ -4,10 +4,9 @@ import  chainlink from '../../assets/chainlink.png'
 import ecosystem from '../../assets/ecosystem.png'
 import solana from '../../assets/solana.png'
 import devfolio from '../../assets/devfolio.png'
-import  ethereum from '../../assets/ethreum.png'
+
 import devcon from '../../assets/devcon.png'
 import biconomy from '../../assets/biconomy.png'
-import TestimonialSlider from './TestimonialSlider.jsx'
 import  s1 from '../../assets/s1.JPG'
 import  s2 from '../../assets/s2.JPG'
 import  s3 from '../../assets/s3.JPG'
@@ -34,9 +33,9 @@ const Support = () => {
         <div className="container">
             <img src={solana} alt="ecpsystem"/>
         </div>
-        <div className="container">
+        {/* <div className="container">
             <img src={ethereum} alt=""/>
-        </div>
+        </div> */}
         <div className="container ">
             <img src={ecosystem} alt=""/>
         </div>
@@ -52,7 +51,6 @@ const Support = () => {
         </div>
     </div>
    
-   <TestimonialSlider/>
 
     <div className='section__margin'>
     <h1 className='support_h1'>Upcoming Event 2024</h1>
