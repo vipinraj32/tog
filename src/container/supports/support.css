@@ -105,6 +105,16 @@
     .support {
       justify-content: center;  /* Centers the content horizontally */
     }
+
+    @keyframes anime {
+      from {
+        transform: translateX(1%);
+      }
+      to {
+        transform: translateX(-500%); 
+        /* run transform :translatex(-650%) */
+      }
+    }
   }
   .scroll_p {
     background:-moz-radial-gradient(circle at 30% -100%, #042c54 25%, rgba(4, 44, 84, 1) 85%, rgba(27, 120, 222, 1) 100%);
