@@ -1,11 +1,9 @@
 import React from 'react'
 import './support.css'
 import  chainlink from '../../assets/chainlink.png'
-import ecosystem from '../../assets/ecosystem.png'
 import solana from '../../assets/solana.png'
 import devfolio from '../../assets/devfolio.png'
 
-import devcon from '../../assets/devcon.png'
 import biconomy from '../../assets/biconomy.png'
 import  s1 from '../../assets/s1.JPG'
 import  s2 from '../../assets/s2.JPG'
@@ -14,7 +12,7 @@ import  s4 from '../../assets/s4.JPG'
 import  s5 from '../../assets/s5.JPG'
 import  s6 from '../../assets/s6.png'
 import  s7 from '../../assets/s7.JPG'
-import  s8 from '../../assets/s8.jpg'
+
 
 
 
@@ -36,16 +34,11 @@ const Support = () => {
         {/* <div className="container">
             <img src={ethereum} alt=""/>
         </div> */}
-        <div className="container ">
-            <img src={ecosystem} alt=""/>
-        </div>
+       
         <div className="container ">
             <img src={devfolio} alt=""/>
         </div>
       
-        <div className=" container">        
-            <img src={devcon} alt=""/>
-        </div>
         <div className=" container">        
             <img src={biconomy} alt=""/>
         </div>
