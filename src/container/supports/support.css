@@ -54,10 +54,10 @@
   .container {
     display: flex;
     
-    animation-name: anime;
+     animation-name: anime;
     animation-duration:50s;
     animation-iteration-count: infinite;
-    animation-timing-function: linear;
+    animation-timing-function: linear; 
     margin-left: 40px;
   }
   
@@ -70,10 +70,11 @@
   
   @keyframes anime {
     from {
-      transform: translateX(10%);
+      transform: translateX(1%);
     }
     to {
-      transform: translateX(-650%);
+      transform: translateX(-0%); 
+      /* run transform :translatex(-650%) */
     }
   }
   .scroll .container {
@@ -147,6 +148,16 @@
     object-position: center;
   }
   .scroll_p .container_p {
-    animation: anime 20s linear infinite;
+    animation: anme 20s linear infinite;
     margin-left: 120px;
+  }
+
+  @keyframes anme {
+    from {
+      transform: translateX(0%);
+    }
+    to {
+      transform: translateX(-500%); 
+      /* run transform :translatex(-650%) */
+    }
   }
